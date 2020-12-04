@@ -4,8 +4,6 @@ const inputs = fs.readFileSync(file).toString().split("\n");
 var inputMap = [];
 const slopes = [[1,1],[3,1],[5,1],[7,1],[1,2]]
 var [maxX, maxY] = [0, 0];
-const moveX = 3;
-const moveY = 1;
 var result = 1;
 
 for (line in inputs) {
